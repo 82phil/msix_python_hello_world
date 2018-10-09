@@ -1,0 +1,12 @@
+# Dev
+/.vscode
+/.pcode
+/venv
+
+# PyInstaller
+/build
+*.spec
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
