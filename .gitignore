@@ -5,8 +5,14 @@
 
 # PyInstaller
 /build
+/dist
 *.spec
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# Appx Files
+AppxManifest.xml
+*.msix
+*.AppInstaller
