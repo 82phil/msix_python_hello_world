@@ -47,9 +47,9 @@ The following are required arguments:
 
 | | |
 | --------------------- | ---- |
-| `--app-version` | Follows the format of `major.minor.patch.build`<br>Build should be a monotonic number that, for instance, increments with each run of the continuous integration job that builds the MSIX package. The app version should increment to indicate an update. |
-| `--logo-dir` | Images used by Windows in areas like the taskbar, start menu, start tiles, etc. |
-| `--manifest` | Path to the `.json` file that contains information necessary to build the `AppxManifest.xml` and `.AppInstaller` files and closely match the corresponding XML attributes. See `manifest.json` in the project for an example. |
+| <nobr>`--app-version`</nobr> | Follows the format of `major.minor.patch.build`<br />Build should be a monotonic number that, for instance, increments with each run of the continuous integration job that builds the MSIX package. The app version needs to change to indicate an update. |
+| <nobr>`--logo-dir`</nobr> | Images used by Windows in areas like the taskbar, start menu, start tiles, etc.|
+| <nobr>`--manifest`</nobr> | Path to the `.json` file that contains information necessary to build the `AppxManifest.xml` and `.AppInstaller` files and closely match the corresponding XML attributes. See `manifest.json` in the project for an example. |
 
 In addition there are options to specify the appropriate signing cert to use and
 generating the `.AppInstaller` manifest as well.

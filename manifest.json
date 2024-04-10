@@ -28,11 +28,11 @@
         },
         "UpdateSettings": {
             "OnLaunch": {
-                "HoursBetweenUpdateChecks": 1,
+                "HoursBetweenUpdateChecks": 24,
                 "ShowPrompt": false,
                 "UpdateBlocksActivation": false
             },
-            "AutomaticBackgroundTask": false,
+            "AutomaticBackgroundTask": true,
             "ForceUpdateFromAnyVersion": false
         }
     }
