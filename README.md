@@ -45,11 +45,32 @@ The `gen_msix_xml.py` script handles generating the `AppxManifest.xml` required 
 
 The following are required arguments:
 
-| | |
-| --------------------- | ---- |
-| <span style="white-space: nowrap;">`--app-version`</span> | Follows the format of `major.minor.patch.build`<br />Build should be a monotonic number that, for instance, increments with each run of the continuous integration job that builds the MSIX package. The app version needs to change to indicate an update. |
-| <span style="white-space: nowrap;">`--logo-dir`</span> | Images used by Windows in areas like the taskbar, start menu, start tiles, etc.|
-| <span style="white-space: nowrap;">`--manifest`</span> | Path to the `.json` file that contains information necessary to build the `AppxManifest.xml` and `.AppInstaller` files and closely match the corresponding XML attributes. See `manifest.json` in the project for an example. |
+<table>
+  <tr>
+    <td><span style="white-space: nowrap;"><code>--app-version</code></span></td>
+    <td>
+      Follows the format of <code>major.minor.patch.build</code><br />
+      Build should be a monotonic number that, for instance, increments with
+      each run of the continuous integration job that builds the MSIX package.
+      The app version needs to change to indicate an update.
+    </td>
+  </tr>
+  <tr>
+    <td><span style="white-space: nowrap;"><code>--logo-dir</code></span></td>
+    <td>
+      Images used by Windows in areas like the taskbar, start menu, start tiles, etc.
+    </td>
+  </tr>
+  <tr>
+    <td><span style="white-space: nowrap;"><code>--manifest</code></span></td>
+    <td>
+      Path to the <code>.json</code> file that contains information necessary to
+      build the <code>AppxManifest.xml</code> and <code>.AppInstaller</code>
+      files and closely match the corresponding XML attributes. See
+      <code>manifest.json</code> in the project for an example.
+    </td>
+  </tr>
+</table>
 
 In addition there are options to specify the appropriate signing cert to use and
 generating the `.AppInstaller` manifest as well.
