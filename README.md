@@ -47,7 +47,7 @@ The following are required arguments:
 
 <table>
   <tr>
-    <td><span style="white-space: nowrap;"><code>--app-version</code></span></td>
+    <td>&#8209;&#8209;<code>app</code>&#8209;<code>version</code></td>
     <td>
       Follows the format of <code>major.minor.patch.build</code><br />
       Build should be a monotonic number that, for instance, increments with
@@ -56,13 +56,13 @@ The following are required arguments:
     </td>
   </tr>
   <tr>
-    <td><span style="white-space: nowrap;"><code>--logo-dir</code></span></td>
+    <td>&#8209;&#8209;<code>logo</code>&#8209;<code>dir</code></td>
     <td>
       Images used by Windows in areas like the taskbar, start menu, start tiles, etc.
     </td>
   </tr>
   <tr>
-    <td><span style="white-space: nowrap;"><code>--manifest</code></span></td>
+    <td>&#8209;&#8209;<code>manifest</code></td>
     <td>
       Path to the <code>.json</code> file that contains information necessary to
       build the <code>AppxManifest.xml</code> and <code>.AppInstaller</code>
