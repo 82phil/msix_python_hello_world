@@ -50,7 +50,7 @@ The following are required arguments:
     <td>&#8209;&#8209;app&#8209;version</td>
     <td>
       Follows the format of <code>major.minor.patch.build</code><br />
-      Build should be a monotonic number that, for instance, increments with
+      Build should be a number that increments with
       each run of the continuous integration job that builds the MSIX package.
       The app version needs to change to indicate an update.
     </td>
@@ -58,7 +58,7 @@ The following are required arguments:
   <tr>
     <td>&#8209;&#8209;logo&#8209;dir</td>
     <td>
-      Images used by Windows in areas like the taskbar, start menu, start tiles, etc.
+      Images used by Windows for the application in areas like the taskbar, start menu, start tiles, etc.
     </td>
   </tr>
   <tr>

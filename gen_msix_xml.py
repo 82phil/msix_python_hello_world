@@ -331,8 +331,7 @@ if parsed_args.gen_installer:
         # 4k is an arbitrary limit, hopefully an order of magnitude larger
         # than the change in file size but if could be increased if needed, just
         # note that the Delivery Optimization service will need to be restarted
-        # so it fully downloads the new file limit size, this typically happens
-        # when Windows restarts.
+        # so it fully downloads the new file limit size.
         assert file_size < file_pad_limit, (
             f"AppInstaller file size is larger than the {file_pad_limit}B limit")
         # Pad the file to the limit
