@@ -1,2 +1,2 @@
 
-pyinstaller console.py --clean --onefile
+pyinstaller demo.py --clean

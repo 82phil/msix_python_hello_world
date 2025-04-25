@@ -1,0 +1,39 @@
+{
+    "AppManifest": {
+        "Identity": {
+            "Name": "DemoCompany.PythonMSIXAppDemo",
+            "Arch": "x64"
+        },
+        "Properties": {
+            "DisplayName": "Python MSIX App Demo",
+            "Description": "A demonstration on using MSIX to package a bundled Python application",
+            "PublisherDisplayName": "Demo Company"
+        },
+        "Application": {
+            "EntryPoint": "demo.exe"
+        },
+        "Dependencies": {
+            "MinVersion": "10.0.19041.0",
+            "MaxVersionTested": "10.0.19041.0"
+        },
+        "VisualElements": {
+            "BackgroundColor": "white"
+        }
+    },
+    "AppInstaller": {
+        "Uri": "http://localhost/Demo.AppInstaller",
+        "Version": "1.0.0.0",
+        "MainPackage": {
+            "Uri": "http://localhost/demo.msix"
+        },
+        "UpdateSettings": {
+            "OnLaunch": {
+                "HoursBetweenUpdateChecks": 24,
+                "ShowPrompt": false,
+                "UpdateBlocksActivation": false
+            },
+            "AutomaticBackgroundTask": true,
+            "ForceUpdateFromAnyVersion": false
+        }
+    }
+}

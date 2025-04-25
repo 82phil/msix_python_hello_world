@@ -1,0 +1,1 @@
+﻿input('Hello World!')
