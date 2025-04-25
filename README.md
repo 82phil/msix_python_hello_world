@@ -21,7 +21,7 @@ Hello World!
 
 ## Build the MSIX package
 
-Read through the [Python Desktop App Distribution Using MSIX]() post to get all
+Read through the [Python Desktop App Distribution Using MSIX](https://82phil.github.io/python/2025/04/24/msix_pyinstaller.html) post to get all
 the pre-requisites sorted out, then it is just a few commands to build and sign
 the package.
 
